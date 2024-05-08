@@ -7,7 +7,9 @@ function App() {
   }).catch((err)=>{
     console.log("the error is",err)
   })
+  return <>
+  <h5>This is a react build application</h5>
+  </>
 
 }
-
 export default App;
